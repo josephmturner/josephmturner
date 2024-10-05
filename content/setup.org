@@ -1,0 +1,5 @@
+# -*- mode: org; -*-
+
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/css/stylesheet.css"/>
+#+HTML_HEAD: <link rel="icon" href="/img/favicon.svg" />

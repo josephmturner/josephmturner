@@ -1,0 +1,201 @@
+/* Largely copied from https://simplecss.org/ */
+
+:root {
+  --bg: #755f67;
+  --accent-bg: #353535;
+  --text: #ffffff;
+  --border: #000000;
+  --accent: lightblue;
+  --code: #b2c5ff;
+  --preformatted-bg: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
+    --text: #dcdcdc;
+    --border: #666;
+    --accent: #ffb300;
+    --code: #9cc0ff;
+    --preformatted-bg: #141414;
+    --disabled: #111;
+  }
+}
+
+/* Make the body a nice central block */
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#content, #preamble > nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Make the header bg full width, but the content inline with body */
+#preamble, #postamble {
+  background: var(--accent-bg);
+  text-align: center;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+
+/* Format headers */
+
+/* Fix line height when title wraps */
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+/* Format links & buttons */
+a,
+a:visited {
+  color: var(--text);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+code {
+  color: var(--code);
+}
+
+button,
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  border: none;
+  background: var(--accent);
+  font-size: 1rem;
+  color: var(--bg);
+  padding: 0.7rem 0.9rem;
+  margin: 0.5rem 0;
+}
+
+button:focus,
+button:enabled:hover,
+[role="button"]:focus,
+[role="button"]:not([aria-disabled="true"]):hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+input[type="button"]:enabled:hover {
+  cursor: pointer;
+}
+
+/* Format navigation */
+nav {
+  display: flex;
+  align-content:   space-between;
+  align-items:     center;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Use flexbox to allow items to wrap, as needed */
+nav a {
+  list-style-type: none;
+  margin:          0;
+  padding:         0;
+  font-size: large;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav > div > a {
+  margin: 3px;
+}
+
+/* Hide duplicate h1 titles and table of contents heading*/
+.settitle,
+.top,
+.contents-heading {
+  display: none;
+}
+
+pre {
+  padding: 1ex;
+  min-width: 0;
+  font-size: 80%;
+  overflow: auto;
+  background-color: var(--preformatted-bg);
+  border: 1px solid var(--border);
+}
+
+/* Remove big gaps in TOC */
+pre.menu-comment {
+  background: none;
+  border: none;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+/* I couldn't figure out how to stop org mode from inserting horizontal rules all over */
+hr {
+  display: none;
+}
+
+thead {
+  border-bottom: 1px solid var(--border);
+}
+
+tfoot {
+  border-top: 1px solid var(--border);
+}
+
+blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+  font-family: serif;
+  border-left: 3px solid;
+  border-left-color: currentcolor;
+  border-color: var(--text);
+  padding-left: 1em;
+}
+
+/* Style groups of "Key:", "Command:", "User Option:", etc. */
+dl {
+  border-left: 2px solid var(--accent);
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+}
+
+kbd.kbd {
+  color: var(--marked);
+  padding-right: 1rem;
+}
+
+.multitable {
+  margin: 0 auto;
+}
