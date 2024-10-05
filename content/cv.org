@@ -1,0 +1,73 @@
+#+TITLE: Joseph Turner CV
+#+SETUPFILE: ./setup.org
+
+| Email    | ~hello at this domain~ |
+| XMPP     | ~my first name at xmpp dot this domain~ |
+
+* Software
+
+- Languages/Tools
+
+  - Web (JavaScript, React+Redux, HTML, CSS) (2018-)
+  - GNU/Linux (2019-)
+  - Emacs Lisp (2022-)
+  - Bash (2022-)
+  - ~ Python, Awk, Haskell, Scheme, Lua, LaTeX, Cron
+
+
+- Projects
+  - [[https://ushin.org][USHIN]] (Tiny US-based educational nonprofit)
+
+    - Board member (2020-)
+    - Lead developer (2019-)
+      - ~hyperdrive.el~ (Emacs Lisp) ([[https://git.sr.ht/~ushin/hyperdrive.el][source repo]]) ([[https://ushin.org/hyperdrive/hyperdrive-manual.org][user manual]])
+      - ~hypercore-fetch-ushin~ (Javascript) ([[https://git.sr.ht/~ushin/hypercore-fetch-ushin/][source repo]])
+      - [[https://ushin.org/software.html][others]]
+  - Emacs and Org-mode
+    - Contributor (2022-)
+      - [[https://yhetil.org/emacs-bugs/87msramv72.fsf@breatheoutbreathe.in/T/][Image map transformation]]
+      - [[https://yhetil.org/emacs-devel/?q=%22joseph+turner%22][mailing list]], [[https://yhetil.org/emacs-bugs/?q=%22joseph+turner%22][bug tracker]]
+
+* Music
+
+- Teaching
+  - Orleans Elementary, Orleans, CA (2024-)
+  - Junction School, Somes Bar, CA (2024-)
+- Performing
+  # TODO: Link to music page
+  - Events, non-events (2004-)
+- Contests
+  - Arizona State Old Time Fiddle Grand Champion (2014,2015,2016)
+
+* Elder Care
+
+- Tucson, AZ (2018-2019)
+- Somes Bar, CA (2024-)
+
+* Martial Arts
+
+- Kajukenbo (2005-2014)
+- Aikido (2018-)
+- Taiji (2024-)
+
+* Bookkeeping
+
+- ~gnucash~ (2018-2020)
+- ~hledger~ (2020-)
+
+* Animal, Garden, Building Care
+
+- Tucson, AZ (2021)
+- Somes Bar, CA (2022-)
+
+* Languages
+
+- English (Native)
+- Spanish (Fluent)
+- Mandarin (Intermediate)
+
+* Education
+
+- BASIS Tucson North High School, Valedictorian (2012-2016)
+- Pomona College (2016-2017)
+- University of Arizona, BA Linguistics with Honors, Summa Cum Laude (2017-2019)
