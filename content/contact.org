@@ -1,0 +1,5 @@
+#+TITLE: Contact
+#+SETUPFILE: ./setup.org
+
+| Email | ~hello at this domain~                       |
+| XMPP  | ~my first name at xmpp.breatheoutbreathe.in~ |
