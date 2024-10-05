@@ -1,0 +1,7 @@
+#+TITLE: Sitemap for josephturner.net
+#+SETUPFILE: ./setup.org
+
+- [[file:contact.org][Contact]]
+- [[file:index.org][Joseph Turner]]
+- [[file:cv.org][Joseph Turner CV]]
+- [[file:404.org][Page not found]]
